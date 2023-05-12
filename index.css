@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+body {
+  font-family:'Montserrat',Arial,sans-serif;
+}
+
+.content{
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.login-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.login-image{
+    max-width: 300px;
+}
+
+
+.login-form{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 30px;
+
+    margin-bottom: 80px;
+}
+
+.label-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #817979;
+    margin-bottom: 10px;
+    max-width: 150px;
+}
+
+.input{
+    padding: 8px;
+    max-width: 284px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.input:hover,
+.input:focus{
+    background-color: #ece9e9;
+}
+
+.forgot-password-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #4a00fb;;
+}
+.forgot-password-link:hover,
+.forgot-password-link:focus{
+    text-decoration: underline;
+}
+
+.password-label{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.password-field{
+    position: relative;
+}
+
+.eye-icon{
+    position: absolute;
+    max-width: 15px;
+    right: 8px;
+    top: 8px;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    background: #4a00fb;
+    width: 100%;
+    border: none;
+    padding: 10px 8px;
+}
+
+.login-button:hover,
+.login-button:focus{
+    background: #3e01ca;
+}
+
+.arrow-icon{
+    max-width: 15px;
+}
+
+.copyright-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #817979;
+}

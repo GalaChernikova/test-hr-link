@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR-Link</title>
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="login-image-box">
+            <h1 class="login-image-login-title login-title">Войти в HR-Link</h1>
+            <img class="login-image-login-image login-image" src="./img/login.png" alt="login-image">
+        </div>
+
+        <div class="form-box">
+            <form action="" class="form-box__login-form login-form">
+                <label for="" class="login-form__label label" name="email">
+                    <p class="label__label-text label-text">Email/Телефон/WhatsApp</p>
+                </label>
+                <input type="email" class="login-form__input input" id="email">
+
+
+                <label for="" class="login-form__label label" name="password">
+                    <div class="label__password-label password-label">
+                        <p class="label__label-text label-text">Пароль</p>
+                        <a href="#" class="label__forgot-password-link forgot-password-link">Не знаете пароль?</a>
+                    </div>
+                </label>
+
+                <div class="login-form__password-field password-field">
+                    <input type="password" class="login-form__input input" id="password">
+                    <img src="./img/icon_eye_.svg" class="login-form__eye-icon eye-icon" id="eyeIcon" alt="icon-eye"  onclick="showPassword()">
+                </div>
+                
+
+                <button type="submit" class="login-form__login-button login-button">
+                    <p class="login-button__button-text buton-text">Войти</p>
+                    <img src="./img/icon_arrow_right _.svg" alt="arrow-icon" class="login-button__arrow-icon arrow-icon">
+                </button>
+            </form>
+        </div>
+
+        <div class="copyright">
+            <p class="copyright__copyright-text copyright-text">Copyright &copy; 2023 HR-Link</p>
+        </div>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
